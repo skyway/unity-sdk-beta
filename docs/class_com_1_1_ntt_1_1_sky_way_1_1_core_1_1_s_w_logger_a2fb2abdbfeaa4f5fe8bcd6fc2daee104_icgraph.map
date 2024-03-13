@@ -1,0 +1,9 @@
+<map id="Com.Ntt.SkyWay.Core.SWLogger.LogE" name="Com.Ntt.SkyWay.Core.SWLogger.LogE">
+<area shape="rect" id="Node000001" title=" " alt="" coords="276,78,528,104"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#a29ef457055197e95eacdab0dbfe9e53c" title=" " alt="" coords="13,5,220,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="327,77,208,49,209,44,328,72"/>
+<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html#a87f21e9505a4dc49c11d7aac4a839496" title=" " alt="" coords="5,71,228,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="260,94,228,94,228,88,260,88"/>
+<area shape="rect" id="Node000004" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_s_f_u_room_member.html#a4c1b17414a806899b9a5e581d288586d" title="SWLocalStreamをunpublishします。 SWRoom.onStreamUnpublishedHandlerが発火します。" alt="" coords="7,136,226,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,110,209,138,208,133,327,105"/>
+</map>

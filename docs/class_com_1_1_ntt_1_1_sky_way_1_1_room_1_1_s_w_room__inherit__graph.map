@@ -1,0 +1,7 @@
+<map id="Com.Ntt.SkyWay.Room.SWRoom" name="Com.Ntt.SkyWay.Room.SWRoom">
+<area shape="rect" id="Node000001" title="Roomの操作を行うクラス。" alt="" coords="121,5,344,31"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_p2_p_room.html" title="P2PRoomの操作を行うクラス。" alt="" coords="5,79,209,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,42,139,81,137,76,199,37"/>
+<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_s_f_u_room.html" title="SFURoomの操作を行うクラス。" alt="" coords="233,87,482,112"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,37,340,84,337,88,263,42"/>
+</map>

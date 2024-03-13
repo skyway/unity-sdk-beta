@@ -1,0 +1,7 @@
+<map id="Com.Ntt.SkyWay.Room.SWLocalSFURoomMember" name="Com.Ntt.SkyWay.Room.SWLocalSFURoomMember">
+<area shape="rect" id="Node000001" title="LocalSFURoomMemberの操作を行うクラス。" alt="" coords="5,153,224,193"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_room_member.html" title="LocalRoomMemberの操作を行うクラス。" alt="" coords="36,79,193,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,120,117,152,112,152,112,120"/>
+<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html" title="RoomMemberの操作を行うクラス。" alt="" coords="52,5,177,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,46,117,79,112,79,112,46"/>
+</map>
