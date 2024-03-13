@@ -1,0 +1,7 @@
+<map id="Com.Ntt.SkyWay.Core.SWContext.Setup" name="Com.Ntt.SkyWay.Core.SWContext.Setup">
+<area shape="rect" id="Node000001" title="SkyWayの利用を開始します。 既に開始している場合はログを出力し、何も行いません。 Optionを変更したい場合は一度Disposeを行ってから再度実行してください。" alt="" coords="5,27,236,68"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#ade0fc6c3b36689d6ef17ecb482c72067" title=" " alt="" coords="284,5,531,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,33,268,30,268,35,236,38"/>
+<area shape="rect" id="Node000003" href="$namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#af74c504d5788b141e62184217cd46c76" title=" " alt="" coords="297,55,518,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,56,281,61,281,66,236,61"/>
+</map>

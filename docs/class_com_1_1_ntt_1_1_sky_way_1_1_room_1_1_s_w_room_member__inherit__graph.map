@@ -1,0 +1,11 @@
+<map id="Com.Ntt.SkyWay.Room.SWRoomMember" name="Com.Ntt.SkyWay.Room.SWRoomMember">
+<area shape="rect" id="Node000001" title="RoomMemberの操作を行うクラス。" alt="" coords="249,5,471,46"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_room_member.html" title="LocalRoomMemberの操作を行うクラス。" alt="" coords="127,94,345,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="321,57,265,96,262,91,318,53"/>
+<area shape="rect" id="Node000005" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_remote_room_member.html" title="RemoteRoomMemberの操作を行うクラス。" alt="" coords="369,94,602,135"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="402,53,458,91,455,96,399,57"/>
+<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_p2_p_room_member.html" title="LocalP2PRoomMemberの操作を行うクラス。" alt="" coords="5,183,224,223"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="198,146,143,184,140,180,194,142"/>
+<area shape="rect" id="Node000004" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_s_f_u_room_member.html" title="LocalSFURoomMemberの操作を行うクラス。" alt="" coords="248,183,466,223"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="277,142,331,180,328,184,274,146"/>
+</map>

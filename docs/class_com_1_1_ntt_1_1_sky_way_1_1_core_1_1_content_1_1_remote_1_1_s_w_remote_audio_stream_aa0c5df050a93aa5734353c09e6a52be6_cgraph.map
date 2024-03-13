@@ -1,0 +1,7 @@
+<map id="Com.Ntt.SkyWay.Core.Content.Remote.SWRemoteAudioStream.SetVolume" name="Com.Ntt.SkyWay.Core.Content.Remote.SWRemoteAudioStream.SetVolume">
+<area shape="rect" id="Node000001" title="音量を変更します。" alt="" coords="5,5,288,46"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_content_1_1_web_r_t_c_wrapper_1_1_s_w_audio_track.html#ae6fa43fa4aae3783bc1d3499a5f0ed50" title=" " alt="" coords="336,5,617,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="288,23,320,23,320,28,288,28"/>
+<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_utils_1_1_s_w_logger.html#a766efe27a7602685eff1ae0d28f98f78" title=" " alt="" coords="665,5,854,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="618,23,649,23,649,28,618,28"/>
+</map>

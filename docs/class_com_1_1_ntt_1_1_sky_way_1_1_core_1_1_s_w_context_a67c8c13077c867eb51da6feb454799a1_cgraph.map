@@ -1,0 +1,5 @@
+<map id="Com.Ntt.SkyWay.Core.SWContext.Dispose" name="Com.Ntt.SkyWay.Core.SWContext.Dispose">
+<area shape="rect" id="Node000001" title="SkyWayの利用を終了します。 以降全ての操作はできなくなり、各インスタンスからイベントが発火しなくなります。 再度SkyWayを利用する場合はSetupを実行してください。" alt="" coords="5,5,236,46"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#ade0fc6c3b36689d6ef17ecb482c72067" title=" " alt="" coords="284,13,531,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,23,268,23,268,28,236,28"/>
+</map>

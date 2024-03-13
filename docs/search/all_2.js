@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['canceled_0',['CANCELED',['../namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#ac458fdbac67e103ae1ae20eb17b4f158ad4539bffb6062bdcbd7e7cc1b1228926',1,'Com.Ntt.SkyWay.Core.CANCELED'],['../namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#a826548f5c47b386f2eb669033050e284ad4539bffb6062bdcbd7e7cc1b1228926',1,'Com.Ntt.SkyWay.Core.CANCELED']]],
+  ['channel_1',['channel',['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#ab967384231b6b5122df1a6334011267e',1,'Com::Ntt::SkyWay::Room::SWRoom']]],
+  ['close_2',['Close',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#ade28af8f24fcc731995805087977b83f',1,'Com.Ntt.SkyWay.Core.SWWebSocketClient.Close()'],['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client_factory.html#aba15cf69546722d26db2f8a056b938fa',1,'Com.Ntt.SkyWay.Core.SWWebSocketClientFactory.Close()'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#ad08e253875bab08e8be58d5190c37da2',1,'Com.Ntt.SkyWay.Room.SWRoom.Close()']]],
+  ['closed_3',['CLOSED',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#a8eeead6398d3aa37944c1bdc2bf6d6b1a110ccf2f5d2ff4eda1fd1a494293467d',1,'Com.Ntt.SkyWay.Core.SWWebSocketClient.CLOSED'],['../namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#a1d9990d3a91b9380b7402814fe24e653a110ccf2f5d2ff4eda1fd1a494293467d',1,'Com.Ntt.SkyWay.Core.CLOSED']]],
+  ['com_4',['Com',['../namespace_com.html',1,'']]],
+  ['com_3a_3antt_5',['Ntt',['../namespace_com_1_1_ntt.html',1,'Com']]],
+  ['com_3a_3antt_3a_3askyway_6',['SkyWay',['../namespace_com_1_1_ntt_1_1_sky_way.html',1,'Com::Ntt']]],
+  ['com_3a_3antt_3a_3askyway_3a_3abridge_7',['Bridge',['../namespace_com_1_1_ntt_1_1_sky_way_1_1_bridge.html',1,'Com::Ntt::SkyWay']]],
+  ['com_3a_3antt_3a_3askyway_3a_3acore_8',['Core',['../namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html',1,'Com::Ntt::SkyWay']]],
+  ['com_3a_3antt_3a_3askyway_3a_3acore_3a_3aswminijson_9',['SWMiniJSON',['../namespace_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_mini_j_s_o_n.html',1,'Com::Ntt::SkyWay::Core']]],
+  ['com_3a_3antt_3a_3askyway_3a_3aroom_10',['Room',['../namespace_com_1_1_ntt_1_1_sky_way_1_1_room.html',1,'Com::Ntt::SkyWay']]],
+  ['com_3a_3antt_3a_3askyway_3a_3asfubot_11',['SFUBot',['../namespace_com_1_1_ntt_1_1_sky_way_1_1_s_f_u_bot.html',1,'Com::Ntt::SkyWay']]],
+  ['configure_12',['Configure',['../class_com_1_1_ntt_1_1_sky_way_1_1_s_f_u_bot_1_1_s_w_forwarding_1_1_configure.html',1,'Com.Ntt.SkyWay.SFUBot.SWForwarding.Configure'],['../class_com_1_1_ntt_1_1_sky_way_1_1_s_f_u_bot_1_1_s_w_forwarding_1_1_configure.html#aa6ebc3a4591de216695a6c494f2be686',1,'Com.Ntt.SkyWay.SFUBot.SWForwarding.Configure.Configure()']]],
+  ['connect_13',['Connect',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#a29ef457055197e95eacdab0dbfe9e53c',1,'Com.Ntt.SkyWay.Core.SWWebSocketClient.Connect()'],['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client_factory.html#ac6637f64a877a1c50fbb3c4c5c3372ad',1,'Com.Ntt.SkyWay.Core.SWWebSocketClientFactory.Connect()']]],
+  ['connecting_14',['CONNECTING',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#a8eeead6398d3aa37944c1bdc2bf6d6b1a9a14f95e151eec641316e7c784ce832d',1,'Com::Ntt::SkyWay::Core::SWWebSocketClient']]],
+  ['connectionstate_15',['ConnectionState',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#a8eeead6398d3aa37944c1bdc2bf6d6b1',1,'Com::Ntt::SkyWay::Core::SWWebSocketClient']]],
+  ['create_16',['Create',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client_factory.html#afab75dff4dc3dc5fa35700f1dd8b5a9a',1,'Com.Ntt.SkyWay.Core.SWWebSocketClientFactory.Create()'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_p2_p_room.html#aa978cb93f5b49e1beba2cc1f5c2524fb',1,'Com.Ntt.SkyWay.Room.SWP2PRoom.Create()'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_s_f_u_room.html#aefc6858196ab98def74851c69923d2af',1,'Com.Ntt.SkyWay.Room.SWSFURoom.Create()']]],
+  ['createfunction_17',['CreateFunction',['../namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#a74c6132a1c9b98ed0d73245214372fe3',1,'Com::Ntt::SkyWay::Core']]],
+  ['createstream_18',['CreateStream',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_audio_source.html#ade70838b15033370833d27893f25cd31',1,'Com.Ntt.SkyWay.Core.SWAudioSource.CreateStream()'],['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_video_source.html#a5d5dce8d3198e8091e3e96c3edff21bf',1,'Com.Ntt.SkyWay.Core.SWVideoSource.CreateStream()']]]
+];

@@ -1,0 +1,13 @@
+<map id="Com.Ntt.SkyWay.Core.Utils.SWLogger.LogI" name="Com.Ntt.SkyWay.Core.Utils.SWLogger.LogI">
+<area shape="rect" id="Node000001" title=" " alt="" coords="665,104,854,145"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_network_1_1_s_w_web_socket_client.html#a413060bf14b76e05198b89e324363063" title=" " alt="" coords="371,5,582,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="705,99,616,62,575,49,577,44,618,56,707,94"/>
+<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html#a67c8c13077c867eb51da6feb454799a1" title="SkyWayの利用を終了します。 以降全ての操作はできなくなり、各インスタンスからイベントが発火しなくなります。 再度SkyWayを利用する場合はSetupを実行してください。" alt="" coords="361,71,592,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="649,114,592,107,592,102,650,109"/>
+<area shape="rect" id="Node000004" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html#a4b1106e42fc6e817996df3650d96f34c" title="SkyWayの利用を開始します。 既に開始している場合はログを出力し、何も行いません。 Optionを変更したい場合は一度Disposeを行ってから再度実行してください。" alt="" coords="361,136,592,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="650,139,592,146,592,141,649,134"/>
+<area shape="rect" id="Node000005" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_content_1_1_web_r_t_c_wrapper_1_1_s_w_audio_track.html#ae6fa43fa4aae3783bc1d3499a5f0ed50" title=" " alt="" coords="336,201,617,242"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="705,154,618,191,577,203,575,198,616,186,703,149"/>
+<area shape="rect" id="Node000006" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_content_1_1_remote_1_1_s_w_remote_audio_stream.html#aa0c5df050a93aa5734353c09e6a52be6" title="音量を変更します。" alt="" coords="5,201,288,242"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="320,224,288,224,288,219,320,219"/>
+</map>
