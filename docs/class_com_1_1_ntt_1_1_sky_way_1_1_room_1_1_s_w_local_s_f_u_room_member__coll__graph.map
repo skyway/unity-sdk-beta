@@ -1,21 +1,21 @@
 <map id="Com.Ntt.SkyWay.Room.SWLocalSFURoomMember" name="Com.Ntt.SkyWay.Room.SWLocalSFURoomMember">
-<area shape="rect" id="Node000001" title="LocalSFURoomMemberの操作を行うクラス。" alt="" coords="207,376,426,417"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_room_member.html" title="LocalRoomMemberの操作を行うクラス。" alt="" coords="238,301,395,327"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,343,319,376,314,376,314,343"/>
-<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html" title="RoomMemberの操作を行うクラス。" alt="" coords="56,205,182,231"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="159,235,292,298,290,303,157,240"/>
-<area shape="rect" id="Node000004" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_member.html" title=" " alt="" coords="5,109,233,135"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="122,150,122,205,116,205,116,150"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="257,5,485,46"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="305,54,153,111,151,106,303,49"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="257,109,485,135"/>
-<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="374,61,374,109,368,109,368,61"/>
-<area shape="rect" id="Node000009" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_member.html" title=" " alt="" coords="511,109,602,135"/>
-<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="425,51,533,106,531,111,422,56"/>
-<area shape="rect" id="Node000006" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html" title="Roomの操作を行うクラス。" alt="" coords="205,205,428,231"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="319,247,319,301,314,301,314,247"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="359,149,326,206,321,203,354,147"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="452,198,663,238"/>
-<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="494,247,349,303,347,298,492,242"/>
-<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="559,150,560,197,555,197,554,150"/>
+<area shape="rect" id="Node000001" title="LocalSFURoomMemberの操作を行うクラス。" alt="" coords="1182,71,1400,111"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_room_member.html" title="LocalRoomMemberの操作を行うクラス。" alt="" coords="976,78,1133,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1148,88,1182,88,1182,94,1148,94"/>
+<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html" title="RoomMemberの操作を行うクラス。" alt="" coords="683,21,808,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="824,45,953,68,986,75,985,80,952,74,823,50"/>
+<area shape="rect" id="Node000004" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_channel_1_1_s_w_member.html" title=" " alt="" coords="325,5,535,46"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="550,26,682,29,682,35,550,31"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,71,216,111"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="228,64,326,44,328,49,229,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="325,71,535,111"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="231,88,324,88,324,94,231,94"/>
+<area shape="rect" id="Node000009" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_channel_1_1_s_w_member.html" title=" " alt="" coords="385,136,475,161"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="231,110,385,138,384,143,230,115"/>
+<area shape="rect" id="Node000006" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html" title="Roomの操作を行うクラス。" alt="" coords="634,78,856,104"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="872,88,976,88,976,94,872,94"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="550,88,634,88,634,94,550,94"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="640,128,850,169"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="865,125,952,109,987,102,988,107,953,114,866,130"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="491,146,640,146,640,151,491,151"/>
 </map>

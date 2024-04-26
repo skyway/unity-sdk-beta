@@ -77,10 +77,11 @@ var namespace_com_1_1_ntt_1_1_sky_way_1_1_core =
       [ "DISABLE", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#addc61f7a1f661752203df7b5b7363189afc93ea58f6d27ffed2b6518ffecf3e4e", null ],
       [ "TURN_ONLY", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#addc61f7a1f661752203df7b5b7363189ab06b2c8ff9b57f2f4ec36fc87919afc7", null ]
     ] ],
-    [ "CreateFunction", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#a74c6132a1c9b98ed0d73245214372fe3", null ],
+    [ "CreateFunction", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#a291063ae0130a05aa6d1d7eeb4f1fbd6", null ],
     [ "HttpRequest", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#afbf657f2baa400137a77d678ae800cee", null ],
     [ "OnChannelEvent", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#adc41fd4b9a80f6e75b645f21e4a5e3d2", null ],
     [ "OnContextEvent", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#af74c504d5788b141e62184217cd46c76", null ],
+    [ "OnLoggerEvent", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#ac48ea29e241f4cd6ace2ec58d94ded2d", null ],
     [ "WebSocketClose", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#acc4ec7caaad0b347118982dd7910283a", null ],
     [ "WebSocketConnect", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#a94d831835b52446dd5e797b79abd3b99", null ],
     [ "WebSocketSendMessage", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#aecadee6d2dbbb60f321f2831a2f41a81", null ]

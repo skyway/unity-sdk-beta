@@ -1,0 +1,12 @@
+digraph "Com.Ntt.SkyWay.Room.SWRoomMember"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="Com.Ntt.SkyWay.Room.SWRoom\lMember",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="RoomMemberの操作を行うクラス。"];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" member",fontcolor="grey" ];
+  Node2 [id="Node000002",label="Com.Ntt.SkyWay.Core.SWMember",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_member.html",tooltip=" "];
+  Node3 -> Node2 [id="edge2_Node000002_Node000003",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" repository",fontcolor="grey" ];
+  Node3 [id="Node000003",label="Com.Ntt.SkyWay.Core.SWChannel\lRepository",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+}
