@@ -1,3 +1,9 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_token.html" title=" " alt="" coords="5,5,199,31"/>
+<area shape="rect" id="Node000000" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html" title="RoomMemberの操作を行うクラス。" alt="" coords="5,39,228,79"/>
+<area shape="rect" id="Node000001" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_room_member.html" title="LocalRoomMemberの操作を行うクラス。" alt="" coords="283,5,502,46"/>
+<area shape="poly" id="edge10_Node000000_Node000001" title=" " alt="" coords="243,41,283,36,283,42,243,46"/>
+<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_remote_room_member.html" title="RemoteRoomMemberの操作を行うクラス。" alt="" coords="276,71,509,111"/>
+<area shape="poly" id="edge12_Node000000_Node000003" title=" " alt="" coords="244,71,276,75,275,80,243,76"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_s_f_u_room_member.html" title="LocalSFURoomMemberの操作を行うクラス。" alt="" coords="557,5,775,46"/>
+<area shape="poly" id="edge11_Node000001_Node000002" title=" " alt="" coords="517,23,557,23,557,28,517,28"/>
 </map>

@@ -168,6 +168,8 @@ $(function(){initNavTree('namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html',''); 
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html">SWLogger</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>SWLoggerNativeEvent</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_member.html">SWMember</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_member_options.html">SWMemberOptions</a></td></tr>
@@ -275,14 +277,16 @@ $(function(){initNavTree('namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html',''); 
 <tr class="separator:af74c504d5788b141e62184217cd46c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbf657f2baa400137a77d678ae800cee" id="r_afbf657f2baa400137a77d678ae800cee"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbf657f2baa400137a77d678ae800cee">HttpRequest</a> (string requestId, string url, string method, string header, string body)</td></tr>
 <tr class="separator:afbf657f2baa400137a77d678ae800cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74c6132a1c9b98ed0d73245214372fe3" id="r_a74c6132a1c9b98ed0d73245214372fe3"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74c6132a1c9b98ed0d73245214372fe3">CreateFunction</a> ()</td></tr>
-<tr class="separator:a74c6132a1c9b98ed0d73245214372fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a291063ae0130a05aa6d1d7eeb4f1fbd6" id="r_a291063ae0130a05aa6d1d7eeb4f1fbd6"><td class="memItemLeft" align="right" valign="top">delegate int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291063ae0130a05aa6d1d7eeb4f1fbd6">CreateFunction</a> ()</td></tr>
+<tr class="separator:a291063ae0130a05aa6d1d7eeb4f1fbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d831835b52446dd5e797b79abd3b99" id="r_a94d831835b52446dd5e797b79abd3b99"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94d831835b52446dd5e797b79abd3b99">WebSocketConnect</a> (int id, string url, string subProtocol)</td></tr>
 <tr class="separator:a94d831835b52446dd5e797b79abd3b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecadee6d2dbbb60f321f2831a2f41a81" id="r_aecadee6d2dbbb60f321f2831a2f41a81"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecadee6d2dbbb60f321f2831a2f41a81">WebSocketSendMessage</a> (int id, string message)</td></tr>
 <tr class="separator:aecadee6d2dbbb60f321f2831a2f41a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc4ec7caaad0b347118982dd7910283a" id="r_acc4ec7caaad0b347118982dd7910283a"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc4ec7caaad0b347118982dd7910283a">WebSocketClose</a> (int id, int code, string reason)</td></tr>
 <tr class="separator:acc4ec7caaad0b347118982dd7910283a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac48ea29e241f4cd6ace2ec58d94ded2d" id="r_ac48ea29e241f4cd6ace2ec58d94ded2d"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac48ea29e241f4cd6ace2ec58d94ded2d">OnLoggerEvent</a> (int logLevel, IntPtr message, IntPtr function, IntPtr fileName, int lineNumber)</td></tr>
+<tr class="separator:ac48ea29e241f4cd6ace2ec58d94ded2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">列挙型詳解</h2>
 <a id="a1d9990d3a91b9380b7402814fe24e653" name="a1d9990d3a91b9380b7402814fe24e653"></a>
@@ -473,14 +477,14 @@ $(function(){initNavTree('namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html',''); 
 </div>
 </div>
 <h2 class="groupheader">関数詳解</h2>
-<a id="a74c6132a1c9b98ed0d73245214372fe3" name="a74c6132a1c9b98ed0d73245214372fe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74c6132a1c9b98ed0d73245214372fe3">&#9670;&#160;</a></span>CreateFunction()</h2>
+<a id="a291063ae0130a05aa6d1d7eeb4f1fbd6" name="a291063ae0130a05aa6d1d7eeb4f1fbd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a291063ae0130a05aa6d1d7eeb4f1fbd6">&#9670;&#160;</a></span>CreateFunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">delegate void Com.Ntt.SkyWay.Core.CreateFunction </td>
+          <td class="memname">delegate int Com.Ntt.SkyWay.Core.CreateFunction </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -583,9 +587,52 @@ $(function(){initNavTree('namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html',''); 
 <div class="center"><img src="namespace_com_1_1_ntt_1_1_sky_way_1_1_core_af74c504d5788b141e62184217cd46c76_icgraph.png" border="0" usemap="#anamespace_com_1_1_ntt_1_1_sky_way_1_1_core_af74c504d5788b141e62184217cd46c76_icgraph" alt=""/></div>
 <map name="anamespace_com_1_1_ntt_1_1_sky_way_1_1_core_af74c504d5788b141e62184217cd46c76_icgraph" id="anamespace_com_1_1_ntt_1_1_sky_way_1_1_core_af74c504d5788b141e62184217cd46c76_icgraph">
 <area shape="rect" title=" " alt="" coords="284,5,505,46"/>
-<area shape="rect" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html#ab094073f3a24a9efb2d2d3839f69b4f4" title="SkyWayの利用を開始します。 既に開始している場合はログを出力し、何も行いません。 Optionを変更したい場合は一度Disposeを行ってから再度実行してください。" alt="" coords="5,5,236,46"/>
+<area shape="rect" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html#a4b1106e42fc6e817996df3650d96f34c" title="SkyWayの利用を開始します。 既に開始している場合はログを出力し、何も行いません。 Optionを変更したい場合は一度Disposeを行ってから再度実行してください。" alt="" coords="5,5,236,46"/>
 <area shape="poly" title=" " alt="" coords="268,28,236,28,236,23,268,23"/>
 </map>
+</div>
+
+</div>
+</div>
+<a id="ac48ea29e241f4cd6ace2ec58d94ded2d" name="ac48ea29e241f4cd6ace2ec58d94ded2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac48ea29e241f4cd6ace2ec58d94ded2d">&#9670;&#160;</a></span>OnLoggerEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void Com.Ntt.SkyWay.Core.OnLoggerEvent </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>logLevel</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>message</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>function</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>fileName</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>lineNumber</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 被呼び出し関係図:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="namespace_com_1_1_ntt_1_1_sky_way_1_1_core_ac48ea29e241f4cd6ace2ec58d94ded2d_icgraph.png" border="0" usemap="#anamespace_com_1_1_ntt_1_1_sky_way_1_1_core_ac48ea29e241f4cd6ace2ec58d94ded2d_icgraph" alt=""/></div>
 </div>
 
 </div>

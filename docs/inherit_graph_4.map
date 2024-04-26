@@ -1,3 +1,3 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_rtc_config.html" title="WebRTC通信に関する設定。" alt="" coords="5,5,223,31"/>
+<area shape="rect" id="Node000000" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_content_1_1_local_1_1_source_1_1_s_w_video_source.html" title="映像入力に関する操作を行う抽象クラス。" alt="" coords="5,5,214,46"/>
 </map>

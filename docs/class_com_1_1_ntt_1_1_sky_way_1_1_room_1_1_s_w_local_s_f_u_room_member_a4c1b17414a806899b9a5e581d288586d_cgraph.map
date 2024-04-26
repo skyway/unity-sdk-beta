@@ -1,7 +1,7 @@
 <map id="Com.Ntt.SkyWay.Room.SWLocalSFURoomMember.Unpublish" name="Com.Ntt.SkyWay.Room.SWLocalSFURoomMember.Unpublish">
-<area shape="rect" id="Node000001" title="SWLocalStreamをunpublishします。 SWRoom.onStreamUnpublishedHandlerが発火します。" alt="" coords="5,23,224,64"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#a2fb2abdbfeaa4f5fe8bcd6fc2daee104" title=" " alt="" coords="274,5,526,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,31,258,28,259,33,225,36"/>
-<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#ad23c78ffd89d37a6a0162f1b44be0dfa" title=" " alt="" coords="272,55,528,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,50,256,53,256,58,224,55"/>
+<area shape="rect" id="Node000001" title="SWLocalStreamをunpublishします。 SWRoom.onStreamUnpublishedHandlerが発火します。" alt="" coords="5,39,224,79"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_utils_1_1_s_w_logger.html#a1e0512e9c9b1ab2457537e9a02ea27df" title=" " alt="" coords="272,5,461,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,42,256,38,257,43,224,47"/>
+<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_utils_1_1_s_w_logger.html#af46ef83d21461016f8b62584accede45" title=" " alt="" coords="272,71,461,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="224,70,257,74,256,80,224,76"/>
 </map>
