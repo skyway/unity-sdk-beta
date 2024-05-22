@@ -1,3 +1,11 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html" title="RoomPublicationの操作を行うクラス。" alt="" coords="5,5,228,46"/>
+<area shape="rect" id="Node000000" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html" title="RoomMemberの操作を行うクラス。" alt="" coords="5,72,228,113"/>
+<area shape="rect" id="Node000001" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_room_member.html" title="LocalRoomMemberの操作を行うクラス。" alt="" coords="283,39,502,79"/>
+<area shape="poly" id="edge11_Node000000_Node000001" title=" " alt="" coords="243,74,283,70,283,75,243,80"/>
+<area shape="rect" id="Node000004" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_remote_room_member.html" title="RemoteRoomMemberの操作を行うクラス。" alt="" coords="276,104,509,145"/>
+<area shape="poly" id="edge14_Node000000_Node000004" title=" " alt="" coords="244,104,276,108,275,113,243,110"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_p2_p_room_member.html" title="LocalP2PRoomMemberの操作を行うクラス。" alt="" coords="557,5,775,46"/>
+<area shape="poly" id="edge12_Node000001_Node000002" title=" " alt="" coords="517,41,556,36,557,42,517,46"/>
+<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_local_s_f_u_room_member.html" title="LocalSFURoomMemberの操作を行うクラス。" alt="" coords="557,71,775,111"/>
+<area shape="poly" id="edge13_Node000001_Node000003" title=" " alt="" coords="517,71,557,76,556,81,517,76"/>
 </map>

@@ -1,5 +1,0 @@
-<map id="Com.Ntt.SkyWay.Core.RtcConfig.ToJson" name="Com.Ntt.SkyWay.Core.RtcConfig.ToJson">
-<area shape="rect" id="Node000001" title=" " alt="" coords="284,5,505,46"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html#ae7403462eb50021217561a23bf05d6e6" title="RtcConfigを更新します。 このAPIは内部向けのものであり、サポート対象外です。" alt="" coords="5,5,236,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,28,236,28,236,23,268,23"/>
-</map>

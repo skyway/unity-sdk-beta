@@ -1,7 +1,0 @@
-<map id="Com.Ntt.SkyWay.Core.Network.SWWebSocketClient.Connect" name="Com.Ntt.SkyWay.Core.Network.SWWebSocketClient.Connect">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,217,79"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_utils_1_1_s_w_logger.html#a1e0512e9c9b1ab2457537e9a02ea27df" title=" " alt="" coords="265,5,454,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,42,249,38,250,43,218,47"/>
-<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_utils_1_1_s_w_logger.html#a766efe27a7602685eff1ae0d28f98f78" title=" " alt="" coords="265,71,454,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="218,70,250,74,249,79,217,75"/>
-</map>

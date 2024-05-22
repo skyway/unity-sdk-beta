@@ -1,7 +1,0 @@
-<map id="Com.Ntt.SkyWay.Core.Content.WebRTCWrapper.SWAudioTrack.Dispose" name="Com.Ntt.SkyWay.Core.Content.WebRTCWrapper.SWAudioTrack.Dispose">
-<area shape="rect" id="Node000001" title=" " alt="" coords="320,39,585,79"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_content_1_1_local_1_1_s_w_local_audio_stream.html#a788287fa1d4bea4cc58731fef12d0a0a" title=" " alt="" coords="20,5,257,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="304,46,257,41,257,36,304,41"/>
-<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_content_1_1_remote_1_1_s_w_remote_audio_stream.html#acd7d9f05c219f8b38100c64cf2e48def" title=" " alt="" coords="5,71,272,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="304,77,272,80,272,75,304,71"/>
-</map>

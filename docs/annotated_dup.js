@@ -59,5 +59,6 @@ var annotated_dup =
           ] ]
         ] ]
       ] ]
-    ] ]
+    ] ],
+    [ "LocalConfig", "class_local_config.html", "class_local_config" ]
 ];

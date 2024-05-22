@@ -8,7 +8,7 @@ SkyWay のメディア通信を体験できるシンプルなサンプルアプ�
 
 ## 開発環境
 - Unity: 2022.3.2f1
-- Android 6.0 Mashmallow(API Level 23)以降
+- Android 8.0 Pie(API Level 26)以降
 
 ## アプリケーション ID とシークレットキーを取得する
 
@@ -173,14 +173,9 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxOTA1MzU5Yi0xOGY3LTRhOWMtYmU4Zi1
 1. Unity Sceneペインで右クリックをしてポップアップメニューを開き、`UI`->`Raw Image`を選択します。
 2. 送信する映像と受信した映像をそれぞれプレビューするために、合計2個のRaw Imageを作成してください。
 
-また、送信用のRender Textureを作成します。
-1. プロジェクトの`Assets`をクリックします。
-2. ポップアップメニューから`Create`をクリックし、`Render Texture`をクリックします。
-3. プレビュー用に作成したRaw Imageをクリックし、作成したRender Textureをアタッチします。
+また、シーンをテクスチャに表示するためのカメラを追加します。
 
-さらに、シーンをテクスチャに表示するためのカメラを追加します。
-1. Unity Sceneペインで右クリックをしてポップアップメニューを開き、`Camera`を選択します。
-2. 作成したCameraをクリックし、InspectorのTarget Textureに送信用のRender Textureをアタッチします。
+Unity Sceneペインで右クリックをしてポップアップメニューを開き、`Camera`を選択して配置します。
 
 ## Scriptをアタッチする
 1. Scene ペインからMain Camera を選択した状態で、Inspector の最下層の`Add Component`をクリックします。
@@ -204,8 +199,10 @@ class SampleScript : MonoBehaviour
 {
     // 受信した音声を再生するAudio Source
     public AudioSource remoteOutputAudioSource;
-    // 送信したいテクスチャ
-    public RenderTexture sendingTexture;
+    // 送信したいカメラオブジェクト
+    public Camera camera;
+    // カメラ映像をプレビューするためのテクスチャ
+    public RawImage localRenderingImage;
     // 受信した映像を反映するRaw Image
     public RawImage remoteRenderingImage;
    
@@ -215,7 +212,11 @@ class SampleScript : MonoBehaviour
 次に Unity の Scene に戻り、Main Camera を選択します。
 
 Inspector 最下層の Script コンポーネントに移動し、作成したAudioSourceを`remoteOutputAudioSource`にアタッチします。
-また、RenderTexture を`sendingTexture`に、受信映像の表示用 RawImage を`remoteRenderingImage`にアタッチします。
+また、以下のように GameObject を変数にアタッチします。
+
+- 送信したいカメラオブジェクト: `camera`
+- 送信する映像をプレビューするための　RawImage : `localRenderingImage`
+- 受信映像の表示用 RawImage : `remoteRenderingImage`
 
 ![attachObject](./img/AttachObject.png)
 
@@ -288,9 +289,17 @@ remoteAudioStream.SetAudioSource(remoteOutputAudioSource);
 
 ## 映像を送受信する
 ### テクスチャソースのVideoStreamの作成とRoomへのPublish
-AudioStream と同様に、`CreateStream`で stream を作成し、`LocalSFUMember.Publish(SWLocalStream localStream, SWRoomPublicationOptions? options)`で Room に Publish します。
+`SWVideoSource.CreateRenderTexture`で RenderTexture を作成し、プレビュー用の RawImage にアタッチします。
+
+以降は AudioStream と同様に、`CreateStream`で stream を作成し、`LocalSFUMember.Publish(SWLocalStream localStream, SWRoomPublicationOptions? options)`で Room に Publish します。
 
 ```c#
+// RenderTextureの作成
+var render = SWVideoSource.CreateRenderTexture(srcCamera.pixelWidth, srcCamera.pixelHeight);
+RenderTexture.active = render;
+srcCamera.targetTexture = render;
+localRenderingImage.texture = render;
+
 // VideoStreamの作成
 var videoSource = new SWVideoSource(sendingTexture);
 var localVideoStream = videoSource.CreateStream();
@@ -330,8 +339,10 @@ public class SampleScript : MonoBehaviour
 {
     // 受信した音声を再生するAudio Source
     public AudioSource remoteOutputAudioSource;
-    // 送信したいテクスチャ
-    public RenderTexture sendingTexture;
+    // 送信したいカメラオブジェクト
+    public Camera camera;
+    // カメラ映像をプレビューするためのテクスチャ
+    public RawImage localRenderingImage;
     // 受信した映像を反映するRaw Image
     public RawImage remoteRenderingImage;
 
@@ -364,8 +375,14 @@ public class SampleScript : MonoBehaviour
         var remoteAudioStream = audioSubscription.Stream as SWRemoteAudioStream;
         remoteAudioStream.SetAudioSource(remoteOutputAudioSource);
 
+        // RenderTextureの作成
+        var render = SWVideoSource.CreateRenderTexture(camera.pixelWidth, camera.pixelHeight);
+        RenderTexture.active = render;
+        camera.targetTexture = render;
+        localRenderingImage.texture = render;
+
         // VideoStreamの作成
-        var videoSource = new SWVideoSource(sendingTexture);
+        var videoSource = new SWVideoSource(render);
         var localVideoStream = videoSource.CreateStream();
 
         // videoをPublishします
