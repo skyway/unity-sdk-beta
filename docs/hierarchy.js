@@ -8,6 +8,7 @@ var hierarchy =
     [ "Com.Ntt.SkyWay.Core.SWHttpClient.HttpHeader", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_http_client_1_1_http_header.html", null ],
     [ "Com.Ntt.SkyWay.Core.IceParams", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_ice_params.html", null ],
     [ "Com.Ntt.SkyWay.Core.SWMiniJSON.Json", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_mini_j_s_o_n_1_1_json.html", null ],
+    [ "LocalConfig", "class_local_config.html", null ],
     [ "MonoBehaviour", null, [
       [ "Com.Ntt.SkyWay.Core.SWAudioSink", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_audio_sink.html", null ]
     ] ],

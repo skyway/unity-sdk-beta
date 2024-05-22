@@ -1,7 +1,0 @@
-<map id="Com.Ntt.SkyWay.Core.Content.Local.SWLocalVideoStream" name="Com.Ntt.SkyWay.Core.Content.Local.SWLocalVideoStream">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,153,214,193"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_content_1_1_local_1_1_s_w_local_stream.html" title=" " alt="" coords="51,79,168,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,120,112,152,107,152,107,120"/>
-<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_content_1_1_s_w_stream.html" title=" " alt="" coords="67,5,152,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="112,46,112,79,107,79,107,46"/>
-</map>

@@ -1,7 +1,7 @@
 <map id="Com.Ntt.SkyWay.Room.SWRoomMember" name="Com.Ntt.SkyWay.Room.SWRoomMember">
-<area shape="rect" id="Node000001" title="RoomMemberの操作を行うクラス。" alt="" coords="5,213,228,253"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_channel_1_1_s_w_member.html" title=" " alt="" coords="11,109,222,150"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,165,119,212,114,212,114,165"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="11,5,222,46"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,62,119,109,114,109,114,62"/>
+<area shape="rect" id="Node000001" title="RoomMemberの操作を行うクラス。" alt="" coords="8,198,231,238"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_member.html" title=" " alt="" coords="6,109,233,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,150,122,197,117,197,117,150"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,234,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,61,122,109,117,109,117,61"/>
 </map>
