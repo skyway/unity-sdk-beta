@@ -8,6 +8,6 @@ var class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client =
     ] ],
     [ "SWWebSocketClient", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#ad979b29876f243599773047ff5e10c28", null ],
     [ "Close", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#ade28af8f24fcc731995805087977b83f", null ],
-    [ "Connect", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#a29ef457055197e95eacdab0dbfe9e53c", null ],
+    [ "Connect", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#a867465d9496a5fd7d14f11e5eae5bcf7", null ],
     [ "Send", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#a1326bd8e3f8f6f23a03fa1b163375ee7", null ]
 ];

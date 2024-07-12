@@ -279,8 +279,8 @@ $(function(){initNavTree('namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html',''); 
 <tr class="separator:afbf657f2baa400137a77d678ae800cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291063ae0130a05aa6d1d7eeb4f1fbd6" id="r_a291063ae0130a05aa6d1d7eeb4f1fbd6"><td class="memItemLeft" align="right" valign="top">delegate int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291063ae0130a05aa6d1d7eeb4f1fbd6">CreateFunction</a> ()</td></tr>
 <tr class="separator:a291063ae0130a05aa6d1d7eeb4f1fbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94d831835b52446dd5e797b79abd3b99" id="r_a94d831835b52446dd5e797b79abd3b99"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94d831835b52446dd5e797b79abd3b99">WebSocketConnect</a> (int id, string url, string subProtocol)</td></tr>
-<tr class="separator:a94d831835b52446dd5e797b79abd3b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a030c87959f9498b3a4a90eff736e26d4" id="r_a030c87959f9498b3a4a90eff736e26d4"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a030c87959f9498b3a4a90eff736e26d4">WebSocketConnect</a> (int id, string url, int subProtocolSize, IntPtr subProtocols, int headerSize, IntPtr headerKeys, IntPtr headerValues)</td></tr>
+<tr class="separator:a030c87959f9498b3a4a90eff736e26d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecadee6d2dbbb60f321f2831a2f41a81" id="r_aecadee6d2dbbb60f321f2831a2f41a81"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecadee6d2dbbb60f321f2831a2f41a81">WebSocketSendMessage</a> (int id, string message)</td></tr>
 <tr class="separator:aecadee6d2dbbb60f321f2831a2f41a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc4ec7caaad0b347118982dd7910283a" id="r_acc4ec7caaad0b347118982dd7910283a"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc4ec7caaad0b347118982dd7910283a">WebSocketClose</a> (int id, int code, string reason)</td></tr>
@@ -668,8 +668,8 @@ $(function(){initNavTree('namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html',''); 
 
 </div>
 </div>
-<a id="a94d831835b52446dd5e797b79abd3b99" name="a94d831835b52446dd5e797b79abd3b99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94d831835b52446dd5e797b79abd3b99">&#9670;&#160;</a></span>WebSocketConnect()</h2>
+<a id="a030c87959f9498b3a4a90eff736e26d4" name="a030c87959f9498b3a4a90eff736e26d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a030c87959f9498b3a4a90eff736e26d4">&#9670;&#160;</a></span>WebSocketConnect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -687,7 +687,27 @@ $(function(){initNavTree('namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html',''); 
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>subProtocol</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>subProtocolSize</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>subProtocols</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>headerSize</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>headerKeys</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>headerValues</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
