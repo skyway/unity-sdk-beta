@@ -102,8 +102,8 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_soc
 静的公開メンバ関数</h2></td></tr>
 <tr class="memitem:a1c6d2c6b3ae892d556e1b9799a96ecc4" id="r_a1c6d2c6b3ae892d556e1b9799a96ecc4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c6d2c6b3ae892d556e1b9799a96ecc4">Create</a> ()</td></tr>
 <tr class="separator:a1c6d2c6b3ae892d556e1b9799a96ecc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6637f64a877a1c50fbb3c4c5c3372ad" id="r_ac6637f64a877a1c50fbb3c4c5c3372ad"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6637f64a877a1c50fbb3c4c5c3372ad">Connect</a> (int id, string url, string subProtocol)</td></tr>
-<tr class="separator:ac6637f64a877a1c50fbb3c4c5c3372ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af024ea3b77f24146d67a654e1f1860b1" id="r_af024ea3b77f24146d67a654e1f1860b1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af024ea3b77f24146d67a654e1f1860b1">Connect</a> (int id, string url, int subProtocolSize, IntPtr subProtocols, int headerSize, IntPtr headerKeys, IntPtr headerValues)</td></tr>
+<tr class="separator:af024ea3b77f24146d67a654e1f1860b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c256fcd0dcd38ba4adbe93b6adc974" id="r_a66c256fcd0dcd38ba4adbe93b6adc974"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66c256fcd0dcd38ba4adbe93b6adc974">Send</a> (int id, string text)</td></tr>
 <tr class="separator:a66c256fcd0dcd38ba4adbe93b6adc974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba15cf69546722d26db2f8a056b938fa" id="r_aba15cf69546722d26db2f8a056b938fa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba15cf69546722d26db2f8a056b938fa">Close</a> (int id, int code, string reason)</td></tr>
@@ -144,8 +144,8 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_soc
 
 </div>
 </div>
-<a id="ac6637f64a877a1c50fbb3c4c5c3372ad" name="ac6637f64a877a1c50fbb3c4c5c3372ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6637f64a877a1c50fbb3c4c5c3372ad">&#9670;&#160;</a></span>Connect()</h2>
+<a id="af024ea3b77f24146d67a654e1f1860b1" name="af024ea3b77f24146d67a654e1f1860b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af024ea3b77f24146d67a654e1f1860b1">&#9670;&#160;</a></span>Connect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +166,27 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_soc
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>subProtocol</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>subProtocolSize</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>subProtocols</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>headerSize</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>headerKeys</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>headerValues</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

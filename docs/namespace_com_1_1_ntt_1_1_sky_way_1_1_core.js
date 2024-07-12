@@ -83,6 +83,6 @@ var namespace_com_1_1_ntt_1_1_sky_way_1_1_core =
     [ "OnContextEvent", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#af74c504d5788b141e62184217cd46c76", null ],
     [ "OnLoggerEvent", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#ac48ea29e241f4cd6ace2ec58d94ded2d", null ],
     [ "WebSocketClose", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#acc4ec7caaad0b347118982dd7910283a", null ],
-    [ "WebSocketConnect", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#a94d831835b52446dd5e797b79abd3b99", null ],
+    [ "WebSocketConnect", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#a030c87959f9498b3a4a90eff736e26d4", null ],
     [ "WebSocketSendMessage", "namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#aecadee6d2dbbb60f321f2831a2f41a81", null ]
 ];
