@@ -19,6 +19,7 @@ var hierarchy =
     [ "Com.Ntt.SkyWay.Core.SWAudioSource", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_audio_source.html", null ],
     [ "Com.Ntt.SkyWay.Core.SWContext", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html", null ],
     [ "Com.Ntt.SkyWay.Core.SWContextOptions", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_options.html", null ],
+    [ "Com.Ntt.SkyWay.Core.SWDataSource", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_data_source.html", null ],
     [ "Com.Ntt.SkyWay.Core.SWEncoding", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_encoding.html", null ],
     [ "Com.Ntt.SkyWay.SFUBot.SWForwarding", "class_com_1_1_ntt_1_1_sky_way_1_1_s_f_u_bot_1_1_s_w_forwarding.html", null ],
     [ "Com.Ntt.SkyWay.Core.SWHttpClient", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_http_client.html", null ],
@@ -49,6 +50,7 @@ var hierarchy =
       ] ],
       [ "Com.Ntt.SkyWay.Core.SWRemoteStream", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_stream.html", [
         [ "Com.Ntt.SkyWay.Core.SWRemoteAudioStream", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_audio_stream.html", null ],
+        [ "Com.Ntt.SkyWay.Core.SWRemoteDataStream", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream.html", null ],
         [ "Com.Ntt.SkyWay.Core.SWRemoteVideoStream", "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_video_stream.html", null ]
       ] ]
     ] ],
