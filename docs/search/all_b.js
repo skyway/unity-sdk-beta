@@ -8,8 +8,8 @@ var searchData=
   ['logd_5',['LogD',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#a13a8f164bf19f0c09e95c760064ba4b3',1,'Com::Ntt::SkyWay::Core::SWLogger']]],
   ['loge_6',['LogE',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#a2fb2abdbfeaa4f5fe8bcd6fc2daee104',1,'Com::Ntt::SkyWay::Core::SWLogger']]],
   ['logi_7',['LogI',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#ade0fc6c3b36689d6ef17ecb482c72067',1,'Com::Ntt::SkyWay::Core::SWLogger']]],
-  ['loglevel_8',['LogLevel',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#a7483cd9713512776f0d920805cae42bc',1,'Com::Ntt::SkyWay::Core::SWLogger']]],
-  ['loglevel_9',['logLevel',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_options.html#aec38205e334005b7c41fe27c2fd8b176',1,'Com.Ntt.SkyWay.Core.SWContextOptions.logLevel'],['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#ace839eca08d3d16b3084418ae13c933c',1,'Com.Ntt.SkyWay.Core.SWLogger.logLevel']]],
+  ['loglevel_8',['logLevel',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_options.html#aec38205e334005b7c41fe27c2fd8b176',1,'Com.Ntt.SkyWay.Core.SWContextOptions.logLevel'],['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#ace839eca08d3d16b3084418ae13c933c',1,'Com.Ntt.SkyWay.Core.SWLogger.logLevel']]],
+  ['loglevel_9',['LogLevel',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#a7483cd9713512776f0d920805cae42bc',1,'Com::Ntt::SkyWay::Core::SWLogger']]],
   ['logv_10',['LogV',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#ab1883bc0e7fe5bfa79efaddc88b7a383',1,'Com::Ntt::SkyWay::Core::SWLogger']]],
   ['logw_11',['LogW',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#ad23c78ffd89d37a6a0162f1b44be0dfa',1,'Com::Ntt::SkyWay::Core::SWLogger']]]
 ];
