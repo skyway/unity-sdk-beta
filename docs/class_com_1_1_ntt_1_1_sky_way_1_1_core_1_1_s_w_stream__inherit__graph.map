@@ -1,6 +1,6 @@
 <map id="Com.Ntt.SkyWay.Core.SWStream" name="Com.Ntt.SkyWay.Core.SWStream">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,193,228,219"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_local_stream.html" title=" " alt="" coords="283,120,495,161"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,193,228,218"/>
+<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_local_stream.html" title=" " alt="" coords="283,120,494,161"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,186,300,159,302,164,188,191"/>
 <area shape="rect" id="Node000006" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_stream.html" title=" " alt="" coords="276,217,502,258"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="244,218,275,222,275,227,243,223"/>
