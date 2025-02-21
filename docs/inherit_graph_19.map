@@ -1,6 +1,6 @@
 <map id="クラス階層図" name="クラス階層図">
-<area shape="rect" id="Node000000" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_stream.html" title=" " alt="" coords="5,193,228,219"/>
-<area shape="rect" id="Node000001" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_local_stream.html" title=" " alt="" coords="283,120,495,161"/>
+<area shape="rect" id="Node000000" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_stream.html" title=" " alt="" coords="5,193,228,218"/>
+<area shape="rect" id="Node000001" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_local_stream.html" title=" " alt="" coords="283,120,494,161"/>
 <area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="187,186,300,159,302,164,188,191"/>
 <area shape="rect" id="Node000005" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_stream.html" title=" " alt="" coords="276,217,502,258"/>
 <area shape="poly" id="edge6_Node000000_Node000005" title=" " alt="" coords="244,218,275,222,275,227,243,223"/>
