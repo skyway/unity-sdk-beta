@@ -51,8 +51,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#a867465d9496a5fd7d14f11e5eae5bcf7",
-"class_com_1_1_ntt_1_1_sky_way_1_1_s_f_u_bot_1_1_s_w_forwarding.html"
+"class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_r_t_c_stats_report.html#ae67c75a3a1216e4ec7c46d46e131281b",
+"class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_s_f_u_room.html#ab641fd91769f8149506349b223a165b8"
 ];
 
 var SYNCONMSG = 'クリックで同期表示が無効になります';

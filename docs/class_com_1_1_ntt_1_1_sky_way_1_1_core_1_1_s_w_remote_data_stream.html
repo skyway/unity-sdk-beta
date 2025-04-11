@@ -155,12 +155,16 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_
 静的公開メンバ関数</h2></td></tr>
 <tr class="memitem:a1afc55e66aa1d74d1bd579523fd15edf" id="r_a1afc55e66aa1d74d1bd579523fd15edf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1afc55e66aa1d74d1bd579523fd15edf">OnData</a> (int id, string data)</td></tr>
 <tr class="separator:a1afc55e66aa1d74d1bd579523fd15edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaffd3952ee68efa9336c897061516aa8" id="r_aaffd3952ee68efa9336c897061516aa8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaffd3952ee68efa9336c897061516aa8">OnDataBuffer</a> (int id, IntPtr data, int length)</td></tr>
+<tr class="separator:aaffd3952ee68efa9336c897061516aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 公開変数類</h2></td></tr>
 <tr class="memitem:a337bd908a0e0ecd340edf36302204449" id="r_a337bd908a0e0ecd340edf36302204449"><td class="memItemLeft" align="right" valign="top">Action&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a337bd908a0e0ecd340edf36302204449">OnDataHandler</a></td></tr>
 <tr class="memdesc:a337bd908a0e0ecd340edf36302204449"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列データを受信した際に発火するハンドラ。  <br /></td></tr>
 <tr class="separator:a337bd908a0e0ecd340edf36302204449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3a2438da52b7f6b9fe622d6e2d5883" id="r_a7b3a2438da52b7f6b9fe622d6e2d5883"><td class="memItemLeft" align="right" valign="top">Action&lt; byte[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b3a2438da52b7f6b9fe622d6e2d5883">OnDataBufferHandler</a></td></tr>
+<tr class="separator:a7b3a2438da52b7f6b9fe622d6e2d5883"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 プロパティ</h2></td></tr>
@@ -205,9 +209,11 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream_a191d2ce48a7693e5ee46ce593c4bc1e1_cgraph.png" border="0" usemap="#aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream_a191d2ce48a7693e5ee46ce593c4bc1e1_cgraph" alt=""/></div>
 <map name="aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream_a191d2ce48a7693e5ee46ce593c4bc1e1_cgraph" id="aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream_a191d2ce48a7693e5ee46ce593c4bc1e1_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,239,46"/>
+<area shape="rect" title=" " alt="" coords="5,39,239,79"/>
 <area shape="rect" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream.html#a1afc55e66aa1d74d1bd579523fd15edf" title=" " alt="" coords="287,5,513,46"/>
-<area shape="poly" title=" " alt="" coords="239,23,271,23,271,28,239,28"/>
+<area shape="poly" title=" " alt="" coords="239,42,271,38,272,44,240,48"/>
+<area shape="rect" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream.html#aaffd3952ee68efa9336c897061516aa8" title=" " alt="" coords="287,71,513,111"/>
+<area shape="poly" title=" " alt="" coords="240,70,272,74,271,79,239,75"/>
 </map>
 </div>
 
@@ -272,7 +278,67 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_
 
 </div>
 </div>
+<a id="aaffd3952ee68efa9336c897061516aa8" name="aaffd3952ee68efa9336c897061516aa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaffd3952ee68efa9336c897061516aa8">&#9670;&#160;</a></span>OnDataBuffer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Com.Ntt.SkyWay.Core.SWRemoteDataStream.OnDataBuffer </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>id</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>data</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>length</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div id="dynsection-4" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> 被呼び出し関係図:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream_aaffd3952ee68efa9336c897061516aa8_icgraph.png" border="0" usemap="#aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream_aaffd3952ee68efa9336c897061516aa8_icgraph" alt=""/></div>
+<map name="aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream_aaffd3952ee68efa9336c897061516aa8_icgraph" id="aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream_aaffd3952ee68efa9336c897061516aa8_icgraph">
+<area shape="rect" title=" " alt="" coords="287,5,513,46"/>
+<area shape="rect" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_remote_data_stream.html#a191d2ce48a7693e5ee46ce593c4bc1e1" title=" " alt="" coords="5,5,239,46"/>
+<area shape="poly" title=" " alt="" coords="271,28,239,28,239,23,271,23"/>
+</map>
+</div>
+
+</div>
+</div>
 <h2 class="groupheader">メンバ詳解</h2>
+<a id="a7b3a2438da52b7f6b9fe622d6e2d5883" name="a7b3a2438da52b7f6b9fe622d6e2d5883"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b3a2438da52b7f6b9fe622d6e2d5883">&#9670;&#160;</a></span>OnDataBufferHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;byte[]&gt; Com.Ntt.SkyWay.Core.SWRemoteDataStream.OnDataBufferHandler</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a337bd908a0e0ecd340edf36302204449" name="a337bd908a0e0ecd340edf36302204449"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a337bd908a0e0ecd340edf36302204449">&#9670;&#160;</a></span>OnDataHandler</h2>
 
