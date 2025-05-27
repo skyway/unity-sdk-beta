@@ -15,7 +15,7 @@
   <!-- End Google Tag Manager -->
   <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=11" />
-  <meta name="generator" content="Doxygen 1.10.0" />
+  <meta name="generator" content="Doxygen 1.14.0" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SkyWay Unity SDK: Com.Ntt.SkyWay.Core.SWContext クラス</title>
   <link href="tabs.css" rel="stylesheet" type="text/css" />
@@ -23,7 +23,6 @@
   <script type="text/javascript" src="dynsections.js"></script>
   <script type="text/javascript" src="clipboard.js"></script>
   <link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="navtreedata.js"></script>
 <script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
@@ -50,21 +49,21 @@
           </tbody>
         </table>
       </div>
-      <!-- end header part --><!-- 構築: Doxygen 1.10.0 -->
+      <!-- end header part -->
+<!-- 構築: Doxygen 1.14.0 -->
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
 </script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() {
-  initMenu('',true,false,'search.php','検索');
+  initMenu('',true,false,'search.php','検索',true);
   $(function() { init_search(); });
 });
-/* @license-end */
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
@@ -79,10 +78,9 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html',''); initResizable(); });
-/* @license-end */
+$(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html','','class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context-members'); });
 </script>
+<div id="container">
 <div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -106,10 +104,6 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
-<a href="#pub-static-attribs">静的公開変数類</a> &#124;
-<a href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context-members.html">全メンバ一覧</a>  </div>
   <div class="headertitle"><div class="title">Com.Ntt.SkyWay.Core.SWContext クラス</div></div>
 </div><!--header-->
 <div class="contents">
@@ -117,42 +111,33 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
 <p>アプリケーション内でSkyWayの利用に関する設定を行うクラス。  
  <a href="#details">[詳解]</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 静的公開メンバ関数</h2></td></tr>
 <tr class="memitem:af1d2ec5986b211c866b28e6a24022917" id="r_af1d2ec5986b211c866b28e6a24022917"><td class="memItemLeft" align="right" valign="top">static async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1d2ec5986b211c866b28e6a24022917">Setup</a> (string token, <a class="el" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_options.html">SWContextOptions</a>? option=null)</td></tr>
 <tr class="memdesc:af1d2ec5986b211c866b28e6a24022917"><td class="mdescLeft">&#160;</td><td class="mdescRight">SkyWayの利用を開始します。 既に開始している場合はログを出力し、何も行いません。 Optionを変更したい場合は一度Disposeを行ってから再度実行してください。  <br /></td></tr>
-<tr class="separator:af1d2ec5986b211c866b28e6a24022917"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6a2eb17f39a8cd2e37ef9bc0718ade4" id="r_ad6a2eb17f39a8cd2e37ef9bc0718ade4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6a2eb17f39a8cd2e37ef9bc0718ade4">UpdateAuthToken</a> (string authToken)</td></tr>
 <tr class="memdesc:ad6a2eb17f39a8cd2e37ef9bc0718ade4"><td class="mdescLeft">&#160;</td><td class="mdescRight">AuthTokenを更新します。  <br /></td></tr>
-<tr class="separator:ad6a2eb17f39a8cd2e37ef9bc0718ade4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67c8c13077c867eb51da6feb454799a1" id="r_a67c8c13077c867eb51da6feb454799a1"><td class="memItemLeft" align="right" valign="top">static async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67c8c13077c867eb51da6feb454799a1">Dispose</a> ()</td></tr>
 <tr class="memdesc:a67c8c13077c867eb51da6feb454799a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">SkyWayの利用を終了します。 以降全ての操作はできなくなり、各インスタンスからイベントが発火しなくなります。 再度SkyWayを利用する場合はSetupを実行してください。  <br /></td></tr>
-<tr class="separator:a67c8c13077c867eb51da6feb454799a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 静的公開変数類</h2></td></tr>
 <tr class="memitem:a71a7f827cda98d814a87ba4455438b40" id="r_a71a7f827cda98d814a87ba4455438b40"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71a7f827cda98d814a87ba4455438b40">isSetup</a> = false</td></tr>
 <tr class="memdesc:a71a7f827cda98d814a87ba4455438b40"><td class="mdescLeft">&#160;</td><td class="mdescRight">SkyWayの利用が開始されているか。  <br /></td></tr>
-<tr class="separator:a71a7f827cda98d814a87ba4455438b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa426da0f8bce41d5b52fa2e9074da117" id="r_aa426da0f8bce41d5b52fa2e9074da117"><td class="memItemLeft" align="right" valign="top">static ? Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa426da0f8bce41d5b52fa2e9074da117">onReconnectStartHandler</a></td></tr>
 <tr class="memdesc:aa426da0f8bce41d5b52fa2e9074da117"><td class="mdescLeft">&#160;</td><td class="mdescRight">SkyWayの利用中にネットワークの瞬断などが原因で再接続処理が開始した時に発火するハンドラ。  <br /></td></tr>
-<tr class="separator:aa426da0f8bce41d5b52fa2e9074da117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87de5c6fe947290be940f7148decba0c" id="r_a87de5c6fe947290be940f7148decba0c"><td class="memItemLeft" align="right" valign="top">static ? Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87de5c6fe947290be940f7148decba0c">onReconnectSuccessHandler</a></td></tr>
 <tr class="memdesc:a87de5c6fe947290be940f7148decba0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">SkyWayの再接続処理が完了した時に発火するハンドラ。  <br /></td></tr>
-<tr class="separator:a87de5c6fe947290be940f7148decba0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e7d1debc77d2a79b3ec28ed2900e93e" id="r_a6e7d1debc77d2a79b3ec28ed2900e93e"><td class="memItemLeft" align="right" valign="top">static ? Action&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e7d1debc77d2a79b3ec28ed2900e93e">onErrorHandler</a></td></tr>
 <tr class="memdesc:a6e7d1debc77d2a79b3ec28ed2900e93e"><td class="mdescLeft">&#160;</td><td class="mdescRight">SkyWayの利用中に致命的なエラーが起きた場合に発火するハンドラ。 初期化時の認証の失敗や、ネットワークが切断され回復不能となった場合などに発火します。  <br /></td></tr>
-<tr class="separator:a6e7d1debc77d2a79b3ec28ed2900e93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a318edc1b111799551930e4855b46e0a8" id="r_a318edc1b111799551930e4855b46e0a8"><td class="memItemLeft" align="right" valign="top">static ? Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a318edc1b111799551930e4855b46e0a8">onTokenRefreshingNeededHandler</a></td></tr>
 <tr class="memdesc:a318edc1b111799551930e4855b46e0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">SkyWayのトークンの更新が必要な時に発火するハンドラ。  <br /></td></tr>
-<tr class="separator:a318edc1b111799551930e4855b46e0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd7835b1caae609859f7f4033f11bb67" id="r_abd7835b1caae609859f7f4033f11bb67"><td class="memItemLeft" align="right" valign="top">static ? Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd7835b1caae609859f7f4033f11bb67">onTokenExpiredHandler</a></td></tr>
 <tr class="memdesc:abd7835b1caae609859f7f4033f11bb67"><td class="mdescLeft">&#160;</td><td class="mdescRight">SkyWayのトークンの有効期限が切れた時に発火するハンドラ。  <br /></td></tr>
-<tr class="separator:abd7835b1caae609859f7f4033f11bb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">詳解</h2>
 <div class="textblock"><p>アプリケーション内でSkyWayの利用に関する設定を行うクラス。 </p>
-</div><h2 class="groupheader">メソッド詳解</h2>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">メソッド詳解</h2>
 <a id="a67c8c13077c867eb51da6feb454799a1" name="a67c8c13077c867eb51da6feb454799a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67c8c13077c867eb51da6feb454799a1">&#9670;&#160;</a></span>Dispose()</h2>
 
@@ -163,31 +148,25 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static async Task Com.Ntt.SkyWay.Core.SWContext.Dispose </td>
+          <td class="memname">async Task Com.Ntt.SkyWay.Core.SWContext.Dispose </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>SkyWayの利用を終了します。 以降全ての操作はできなくなり、各インスタンスからイベントが発火しなくなります。 再度SkyWayを利用する場合はSetupを実行してください。 </p>
-<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 呼び出し関係図:</div>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>呼び出し関係図:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_a67c8c13077c867eb51da6feb454799a1_cgraph.png" border="0" usemap="#aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_a67c8c13077c867eb51da6feb454799a1_cgraph" alt=""/></div>
-<map name="aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_a67c8c13077c867eb51da6feb454799a1_cgraph" id="aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_a67c8c13077c867eb51da6feb454799a1_cgraph">
-<area shape="rect" title="SkyWayの利用を終了します。 以降全ての操作はできなくなり、各インスタンスからイベントが発火しなくなります。 再度SkyWayを利用する場合はSetupを実行してください。" alt="" coords="5,5,236,46"/>
-<area shape="rect" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#ade0fc6c3b36689d6ef17ecb482c72067" title=" " alt="" coords="284,13,531,38"/>
-<area shape="poly" title=" " alt="" coords="236,23,268,23,268,28,236,28"/>
-</map>
+<div class="center"><img src="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_a67c8c13077c867eb51da6feb454799a1_cgraph.png" border="0" usemap="#aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_a67c8c13077c867eb51da6feb454799a1_cgraph" loading="lazy" alt=""/></div>
 </div>
 
 </div>
@@ -202,19 +181,19 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static async Task&lt; bool &gt; Com.Ntt.SkyWay.Core.SWContext.Setup </td>
+          <td class="memname">async Task&lt; bool &gt; Com.Ntt.SkyWay.Core.SWContext.Setup </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>token</em>, </span></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>token</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_options.html">SWContextOptions</a>?</td>          <td class="paramname"><span class="paramname"><em>option</em><span class="paramdefsep"> = </span><span class="paramdefval">null</span></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_options.html">SWContextOptions</a>?</td>          <td class="paramname"><span class="paramname"><em>option</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -227,21 +206,11 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
   </table>
   </dd>
 </dl>
-<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> 呼び出し関係図:</div>
+<div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>呼び出し関係図:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_af1d2ec5986b211c866b28e6a24022917_cgraph.png" border="0" usemap="#aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_af1d2ec5986b211c866b28e6a24022917_cgraph" alt=""/></div>
-<map name="aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_af1d2ec5986b211c866b28e6a24022917_cgraph" id="aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_af1d2ec5986b211c866b28e6a24022917_cgraph">
-<area shape="rect" title="SkyWayの利用を開始します。 既に開始している場合はログを出力し、何も行いません。 Optionを変更したい場合は一度Disposeを行ってから再度実行してください。" alt="" coords="5,55,236,96"/>
-<area shape="rect" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#ade0fc6c3b36689d6ef17ecb482c72067" title=" " alt="" coords="284,5,531,31"/>
-<area shape="poly" title=" " alt="" coords="225,52,324,32,325,37,226,57"/>
-<area shape="rect" href="namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#af74c504d5788b141e62184217cd46c76" title=" " alt="" coords="297,55,518,96"/>
-<area shape="poly" title=" " alt="" coords="236,73,281,73,281,78,236,78"/>
-<area shape="rect" href="namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html#ac48ea29e241f4cd6ace2ec58d94ded2d" title=" " alt="" coords="300,120,514,161"/>
-<area shape="poly" title=" " alt="" coords="214,94,301,114,300,119,212,99"/>
-</map>
+<div class="center"><img src="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_af1d2ec5986b211c866b28e6a24022917_cgraph.png" border="0" usemap="#aclass_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_af1d2ec5986b211c866b28e6a24022917_cgraph" loading="lazy" alt=""/></div>
 </div>
 
 </div>
@@ -256,7 +225,7 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool Com.Ntt.SkyWay.Core.SWContext.UpdateAuthToken </td>
+          <td class="memname">bool Com.Ntt.SkyWay.Core.SWContext.UpdateAuthToken </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>authToken</em></span></td><td>)</td>
           <td></td>
@@ -264,7 +233,7 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -279,7 +248,7 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
 
 </div>
 </div>
-<h2 class="groupheader">メンバ詳解</h2>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">メンバ詳解</h2>
 <a id="a71a7f827cda98d814a87ba4455438b40" name="a71a7f827cda98d814a87ba4455438b40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71a7f827cda98d814a87ba4455438b40">&#9670;&#160;</a></span>isSetup</h2>
 
@@ -295,7 +264,7 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -319,7 +288,7 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -343,7 +312,7 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -367,7 +336,7 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -391,7 +360,7 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -415,7 +384,7 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -426,11 +395,19 @@ $(function(){initNavTree('class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespace_com.html">Com</a></li><li class="navelem"><a class="el" href="namespace_com_1_1_ntt.html">Ntt</a></li><li class="navelem"><a class="el" href="namespace_com_1_1_ntt_1_1_sky_way.html">SkyWay</a></li><li class="navelem"><a class="el" href="namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html">Core</a></li><li class="navelem"><a class="el" href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html">SWContext</a></li>
-    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+    <li class="navelem"><a href="namespace_com.html">Com</a></li><li class="navelem"><a href="namespace_com_1_1_ntt.html">Ntt</a></li><li class="navelem"><a href="namespace_com_1_1_ntt_1_1_sky_way.html">SkyWay</a></li><li class="navelem"><a href="namespace_com_1_1_ntt_1_1_sky_way_1_1_core.html">Core</a></li><li class="navelem"><a href="class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html">SWContext</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>
