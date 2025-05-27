@@ -52,8 +52,9 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_r_t_c_stats_report.html#ae67c75a3a1216e4ec7c46d46e131281b",
-"class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_s_f_u_room.html#ab641fd91769f8149506349b223a165b8"
+"class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_s_f_u_room.html#a70c145712051b1fa17416824962f0598"
 ];
 
 var SYNCONMSG = 'クリックで同期表示が無効になります';
 var SYNCOFFMSG = 'クリックで同期表示が有効になります';
+var LISTOFALLMEMBERS = '全メンバ一覧';
