@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['iceparams_0',['IceParams',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_ice_params.html',1,'Com::Ntt::SkyWay::Core']]],
-  ['iceparams_1',['iceParams',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_options.html#a423021e56a568f5c36f490ff4f190e99',1,'Com::Ntt::SkyWay::Core::SWContextOptions']]],
-  ['id_2',['Id',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_encoding.html#a58fbb4268c11f1d6ca7601095bcf3e12',1,'Com.Ntt.SkyWay.Core.SWEncoding.Id'],['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_stream.html#a859a34fab8e2193ff19aef4e69d2d98b',1,'Com.Ntt.SkyWay.Core.SWStream.Id'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#a91aaf6f1eaa7975de36530c2061892ed',1,'Com.Ntt.SkyWay.Room.SWRoom.Id'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html#a2c31e8247db1c043bca624015c59c7c2',1,'Com.Ntt.SkyWay.Room.SWRoomMember.Id'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html#a880652e221744cada6117f484943caa0',1,'Com.Ntt.SkyWay.Room.SWRoomPublication.Id'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_subscription.html#a37d8fdb8da9ad2b285d84c4b1438a78c',1,'Com.Ntt.SkyWay.Room.SWRoomSubscription.Id'],['../class_com_1_1_ntt_1_1_sky_way_1_1_s_f_u_bot_1_1_s_w_forwarding.html#aaa2f4d82a1c83bef8215b8dd722d9e71',1,'Com.Ntt.SkyWay.SFUBot.SWForwarding.Id']]],
-  ['id_3',['id',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_r_t_c_stats_report.html#ae67c75a3a1216e4ec7c46d46e131281b',1,'Com::Ntt::SkyWay::Core::SWWebRTCStatsReport']]],
-  ['info_4',['INFO',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_logger.html#a7483cd9713512776f0d920805cae42bca551b723eafd6a31d444fcb2f5920fbd3',1,'Com::Ntt::SkyWay::Core::SWLogger']]],
-  ['issetup_5',['isSetup',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html#a71a7f827cda98d814a87ba4455438b40',1,'Com::Ntt::SkyWay::Core::SWContext']]],
-  ['isstarted_6',['IsStarted',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_audio_source.html#a68870ad2cd6ffdcf85d446158d8df6c9',1,'Com::Ntt::SkyWay::Core::SWAudioSource']]]
+  ['leave_0',['Leave',['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#adf02eb0c2a0c1dcfa5f2e1b022dedbe5',1,'Com::Ntt::SkyWay::Room::SWRoom']]],
+  ['localroommember_1',['LocalRoomMember',['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#a82645d68d2a5ab98734c1ee489e96f2b',1,'Com.Ntt.SkyWay.Room.SWRoom.LocalRoomMember'],['../index.html#autotoc_md17',1,'LocalRoomMember']]],
+  ['loglevel_2',['logLevel',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context_options.html#aec38205e334005b7c41fe27c2fd8b176',1,'Com::Ntt::SkyWay::Core::SWContextOptions']]]
 ];

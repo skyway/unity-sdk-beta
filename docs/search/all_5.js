@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['find_0',['Find',['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_p2_p_room.html#a1436708309323aea6dfa8633a0d01ab0',1,'Com.Ntt.SkyWay.Room.SWP2PRoom.Find()'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_s_f_u_room.html#a02c11de1ab0b83a69019d9b7990ce3d1',1,'Com.Ntt.SkyWay.Room.SWSFURoom.Find()']]],
-  ['findorcreate_1',['FindOrCreate',['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_p2_p_room.html#a4ca30a9ab0b63e80a275576dae7f564f',1,'Com.Ntt.SkyWay.Room.SWP2PRoom.FindOrCreate()'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_s_f_u_room.html#a70c145712051b1fa17416824962f0598',1,'Com.Ntt.SkyWay.Room.SWSFURoom.FindOrCreate()']]],
-  ['fromjsonarray_2',['FromJsonArray',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_encoding.html#aab5cd79a78b38ed4563d431a08a7927a',1,'Com::Ntt::SkyWay::Core::SWEncoding']]]
+  ['id_0',['Id',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_encoding.html#a58fbb4268c11f1d6ca7601095bcf3e12',1,'Com.Ntt.SkyWay.Core.SWEncoding.Id'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#a91aaf6f1eaa7975de36530c2061892ed',1,'Com.Ntt.SkyWay.Room.SWRoom.Id'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html#a2c31e8247db1c043bca624015c59c7c2',1,'Com.Ntt.SkyWay.Room.SWRoomMember.Id'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html#a880652e221744cada6117f484943caa0',1,'Com.Ntt.SkyWay.Room.SWRoomPublication.Id'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_subscription.html#a37d8fdb8da9ad2b285d84c4b1438a78c',1,'Com.Ntt.SkyWay.Room.SWRoomSubscription.Id']]],
+  ['issetup_1',['isSetup',['../class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html#a71a7f827cda98d814a87ba4455438b40',1,'Com::Ntt::SkyWay::Core::SWContext']]]
 ];

@@ -1,5 +1,0 @@
-<map id="Com.Ntt.SkyWay.Core.OnLoggerEvent" name="Com.Ntt.SkyWay.Core.OnLoggerEvent">
-<area shape="rect" id="Node000001" title=" " alt="" coords="284,5,498,46"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html#ab094073f3a24a9efb2d2d3839f69b4f4" title="SkyWayの利用を開始します。 既に開始している場合はログを出力し、何も行いません。 Optionを変更したい場合は一度Disposeを行ってから再度実行してください。" alt="" coords="5,5,236,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,28,236,28,236,23,268,23"/>
-</map>

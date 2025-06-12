@@ -1,9 +1,0 @@
-<map id="Com.Ntt.SkyWay.Core.SWLogger.LogI" name="Com.Ntt.SkyWay.Core.SWLogger.LogI">
-<area shape="rect" id="Node000001" title=" " alt="" coords="284,78,531,104"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_web_socket_client.html#a867465d9496a5fd7d14f11e5eae5bcf7" title=" " alt="" coords="17,5,224,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="332,77,212,49,213,44,333,72"/>
-<area shape="rect" id="Node000003" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html#a67c8c13077c867eb51da6feb454799a1" title="SkyWayの利用を終了します。 以降全ての操作はできなくなり、各インスタンスからイベントが発火しなくなります。 再度SkyWayを利用する場合はSetupを実行してください。" alt="" coords="5,71,236,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="268,94,236,94,236,88,268,88"/>
-<area shape="rect" id="Node000004" href="$class_com_1_1_ntt_1_1_sky_way_1_1_core_1_1_s_w_context.html#ab094073f3a24a9efb2d2d3839f69b4f4" title="SkyWayの利用を開始します。 既に開始している場合はログを出力し、何も行いません。 Optionを変更したい場合は一度Disposeを行ってから再度実行してください。" alt="" coords="5,136,236,177"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="333,110,213,138,212,133,332,105"/>
-</map>

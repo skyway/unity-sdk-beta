@@ -1,12 +1,9 @@
 var class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room =
 [
-    [ "SWRoom", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#a728d213af5ada771b9b0b664be2c0c59", null ],
     [ "Close", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#ad08e253875bab08e8be58d5190c37da2", null ],
     [ "Dispose", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#a044ac638f752350b792c9a0c275cee91", null ],
-    [ "Join", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#af24345c1eb6eed9e5d88f02f1d1cfa99", null ],
     [ "Leave", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#adf02eb0c2a0c1dcfa5f2e1b022dedbe5", null ],
     [ "UpdateMetadata", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#a69b0170750c9bc7441edac635041c8ef", null ],
-    [ "channel", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#ab967384231b6b5122df1a6334011267e", null ],
     [ "onClosedHandler", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#ad1f54f41005763eadecda5004f92a5a5", null ],
     [ "onErrorHandler", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#a5014bae1871e0b8eb247fa066f5b2a0a", null ],
     [ "onMemberJoinedHandler", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html#a8f5fde917d8f95e3f79ecf1009fb2e4c", null ],

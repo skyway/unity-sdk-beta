@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getstats_0',['GetStats',['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html#a87f21e9505a4dc49c11d7aac4a839496',1,'Com.Ntt.SkyWay.Room.SWRoomPublication.GetStats()'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_subscription.html#a0ddf431247fbe34d1474db28a3ad8d7f',1,'Com.Ntt.SkyWay.Room.SWRoomSubscription.GetStats()']]]
+  ['join_0',['Join',['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_p2_p_room.html#a209ac65fc42df843c592beb8a3f4fce3',1,'Com.Ntt.SkyWay.Room.SWP2PRoom.Join()'],['../class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_s_f_u_room.html#ab641fd91769f8149506349b223a165b8',1,'Com.Ntt.SkyWay.Room.SWSFURoom.Join()']]]
 ];
