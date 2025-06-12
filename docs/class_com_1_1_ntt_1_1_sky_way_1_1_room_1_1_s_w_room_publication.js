@@ -2,7 +2,6 @@ var class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication =
 [
     [ "Disable", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html#a08a1df1960002197774b3c13654efa2f", null ],
     [ "Enable", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html#a1bc065f71b0a4a790c63560872dea712", null ],
-    [ "GetStats", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html#a87f21e9505a4dc49c11d7aac4a839496", null ],
     [ "UpdateMetadata", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html#a4131ea9163e291c5b85a1da36ef96996", null ],
     [ "Id", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html#a880652e221744cada6117f484943caa0", null ],
     [ "Metadata", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_publication.html#a7129fb03dc824d5b020998016f13cba0", null ],

@@ -1,6 +1,5 @@
 var class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member =
 [
-    [ "SWRoomMember", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html#a359fb91323e8b6cf3eb1d8396ef94fb4", null ],
     [ "UpdateMetadata", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html#a84f024e92f9eb871efd2b65db23c039d", null ],
     [ "Id", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html#a2c31e8247db1c043bca624015c59c7c2", null ],
     [ "Metadata", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_member.html#a235e30df3b4794b04bb6b893b1e9effc", null ],

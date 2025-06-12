@@ -1,5 +1,0 @@
-<map id="Com.Ntt.SkyWay.Room.SWSFURoom" name="Com.Ntt.SkyWay.Room.SWSFURoom">
-<area shape="rect" id="Node000001" title="SFURoomの操作を行うクラス。" alt="" coords="5,79,255,105"/>
-<area shape="rect" id="Node000002" href="$class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room.html" title="Roomの操作を行うクラス。" alt="" coords="91,5,169,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,46,133,79,127,79,127,46"/>
-</map>

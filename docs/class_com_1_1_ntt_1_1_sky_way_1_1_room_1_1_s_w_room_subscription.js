@@ -1,6 +1,5 @@
 var class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_subscription =
 [
-    [ "GetStats", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_subscription.html#a0ddf431247fbe34d1474db28a3ad8d7f", null ],
     [ "Id", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_subscription.html#a37d8fdb8da9ad2b285d84c4b1438a78c", null ],
     [ "Publication", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_subscription.html#a5be59eeec2ae28a94f5e757496b1281d", null ],
     [ "State", "class_com_1_1_ntt_1_1_sky_way_1_1_room_1_1_s_w_room_subscription.html#a36fa356419aef232a2020006c37195ed", null ],
