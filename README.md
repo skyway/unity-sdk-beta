@@ -11,14 +11,18 @@ Enterprise プランをご契約のお客様はテクニカルサポートをご
 
 ## 対応バージョン
 
-- Unity: 2022.3.2f1
+- Unity: 2022.3.53f1
 - Android: 8.0(APIレベル26)以上
   - Android エミュレータについては現在非対応です。
+- Windows: 10以上(x64)
 
 ## クイックスタート
 
-クイックスタートについては、`QuickStart`ディレクトリをご覧ください。
+以下をご覧ください。
+- [Android](https://skyway.ntt.com/ja/docs/user-guide/unity-sdk/quickstart-android/)
+- [Windows](https://skyway.ntt.com/ja/docs/user-guide/unity-sdk/quickstart-windows/)
 
 ## APIリファレンス
 
+以下をご覧ください。
 - [Room ライブラリ](https://unity-sdk.api-reference.skyway.ntt.com/)
