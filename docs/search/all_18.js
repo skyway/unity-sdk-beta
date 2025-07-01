@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['用語の解説_0',['用語の解説',['../md_docs_2pages_2index.html#autotoc_md2',1,'']]]
+  ['用語の解説_0',['用語の解説',['../index.html#autotoc_md2',1,'']]]
 ];

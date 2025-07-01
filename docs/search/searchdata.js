@@ -7,7 +7,7 @@ var indexSectionsWithContent =
   4: "iklmnow",
   5: "t",
   6: "ilmnpst",
-  7: "adlmprstuvのへイミ基用"
+  7: "su"
 };
 
 var indexSectionNames =
